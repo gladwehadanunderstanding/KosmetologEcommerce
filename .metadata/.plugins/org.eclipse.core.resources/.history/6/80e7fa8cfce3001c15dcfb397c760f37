@@ -1,0 +1,5 @@
+package com.kosmetolog.entity;
+
+public class Role {
+
+}

@@ -1,0 +1,21 @@
+package com.kosmetolog.admin.user;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.kosmetolog.entity.User;
+
+@Service
+public class UserService {
+
+	@Autowired
+	private UserRepo userRepo;
+	
+	public List<User> listAll(){
+		return (List<User>) userRepo.findAll();
+		
+	}
+	
+}

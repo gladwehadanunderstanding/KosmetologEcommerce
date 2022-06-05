@@ -1,0 +1,9 @@
+package com.kosmetolog.admin.user;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.kosmetolog.entity.User;
+
+public interface UserRepo extends CrudRepository<User, Integer>{
+
+}

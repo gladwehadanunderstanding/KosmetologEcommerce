@@ -1,0 +1,5 @@
+package com.kosmetolog.admin.security;
+
+public class WebSecurityConfig {
+
+}

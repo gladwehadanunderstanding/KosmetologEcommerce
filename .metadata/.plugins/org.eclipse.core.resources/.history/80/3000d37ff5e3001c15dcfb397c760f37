@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>VLAD HELLO</title>
+<link rel="stylesheet" type ="text/css" th:href="@{/webjar/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+<p th:text="'Time on a server is' + ${data}" class="funny"/>
+</body>
+</html>

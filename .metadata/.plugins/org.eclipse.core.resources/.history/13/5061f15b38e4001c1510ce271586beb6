@@ -1,0 +1,19 @@
+package com.kosmetolog.admin.user;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+public class PasswordEncoderTest {
+
+	@Test
+	public void testEncodePassword() {
+		
+		BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
+		String password = "vlad2020";
+		String encodedPassword = bCryptPasswordEncoder.encode(password);
+		
+		System.out.println(encodedPassword);
+		
+	}
+	
+}

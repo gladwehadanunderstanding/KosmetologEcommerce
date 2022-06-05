@@ -1,0 +1,5 @@
+package com.kosmetolog.admin.user;
+
+public interface UserRepo {
+
+}

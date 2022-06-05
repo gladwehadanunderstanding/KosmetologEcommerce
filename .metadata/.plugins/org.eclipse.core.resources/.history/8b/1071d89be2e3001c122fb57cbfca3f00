@@ -1,0 +1,13 @@
+package com.kosmetolog;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class KosmetologCommonApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

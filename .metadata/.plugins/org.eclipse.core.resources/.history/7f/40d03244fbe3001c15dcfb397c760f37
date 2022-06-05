@@ -1,0 +1,6 @@
+server.port = 8070
+server.servlet.context-path=/KosmetologAdmin
+
+spring.datasource.url=jdbc:mysql://localhost:3306/diploma
+spring.datasource.username=hbstudent
+spring.datasource.password=hbstudent
